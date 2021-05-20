@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Formulário de Contato</title>
+<meta charset="utf-8" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/normalize.css">
+        <link rel="icon" href="image/museu1.PNG">
+        <link rel="stylesheet" href="css/style2.css">
+        <script src="JavaScript1.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">MuseuOnly</a>
+        <ul>
+        </ul>
+    </nav>
+
+
+<form name="meu_form" action="ServletInserir">
+
+  <h1>Entre em contato</h1>
+
+  <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
+  <label for="nome">Nome</label>
+
+  <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+  <label for="fone">Fone</label>
+
+  <input type="email" id="emailid" placeholder="e-mail" name="email" />
+  <label for="email">Email</label>
+
+  <textarea placeholder="Deixe sua opnião"></textarea>
+
+  <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+
+</form>
+
+
+</body>
+</html>
